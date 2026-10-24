@@ -1,0 +1,11 @@
+# Lakehouse jobs (DDL, seed, ingestion)
+pyspark==3.5.3
+delta-spark==3.2.1
+# API (reads Delta tables directly, no Spark needed at request time)
+deltalake>=1.0
+pyarrow>=15
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic-settings>=2.2
+httpx>=0.27
+pytest>=8
